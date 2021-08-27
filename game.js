@@ -26,20 +26,20 @@ class Game {
       ]
 
        this.witchImages = [
-        this.imgWitchLeft = loadImage('assets/witch-left.png'),
-        this.imgWitchRight = loadImage('assets/witch-right.png'),
-        this.imgWitchDead = loadImage('assets/witch-dead.png')
+        this.imgWitchLeft = loadImage('sneak-attack/assets/witch-left.png'),
+        this.imgWitchRight = loadImage('sneak-attack/assets/witch-right.png'),
+        this.imgWitchDead = loadImage('sneak-attack/assets/witch-dead.png')
        ]
 
        this.vikingImages = [
-         this.imgVikingLeft = loadImage('assets/viking-left.png'),
-         this.imgVikingRight = loadImage('assets/viking-right.png'),
-         this.imgVikingDead = loadImage('assets/vinking-dead.png')
+         this.imgVikingLeft = loadImage('sneak-attack/assets/viking-left.png'),
+         this.imgVikingRight = loadImage('sneak-attack/assets/viking-right.png'),
+         this.imgVikingDead = loadImage('sneak-attack/assets/vinking-dead.png')
        ]
   
-      this.backGroundimg = loadImage('assets/background.png')
-      this.loosingimg = loadImage('assets/loosing-screen.gif')
-      this.winningimg = loadImage('assets/winning-screen.gif')
+      this.backGroundimg = loadImage('sneak-attack/assets/background.png')
+      this.loosingimg = loadImage('sneak-attack/assets/loosing-screen.gif')
+      this.winningimg = loadImage('sneak-attack/assets/winning-screen.gif')
   
       
     }
