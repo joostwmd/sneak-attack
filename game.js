@@ -15,31 +15,31 @@ class Game {
   
     preLoad() {
       this.charImages = [
-        this.imgCharAttackLeft = loadImage('assets/char-attack-left.png'),
-        this.imgCharAttackRight = loadImage('assets/char-attack-right.png'),
-        this.imgCharDead = loadImage('assets/char-dead.png'),
-        this.imgCharDown = loadImage('assets/char-down.png'),
-        this.imgCharLeft = loadImage('assets/char-left.png'),
-        this.imgCharRight = loadImage('assets/char-right.png'),
-        this.imgCharUp = loadImage('assets/char-up.png'),
+        this.imgCharAttackLeft = loadImage('/assets/char-attack-left.png'),
+        this.imgCharAttackRight = loadImage('/assets/char-attack-right.png'),
+        this.imgCharDead = loadImage('/assets/char-dead.png'),
+        this.imgCharDown = loadImage('/assets/char-down.png'),
+        this.imgCharLeft = loadImage('/assets/char-left.png'),
+        this.imgCharRight = loadImage('/assets/char-right.png'),
+        this.imgCharUp = loadImage('/assets/char-up.png'),
     
       ]
 
        this.witchImages = [
-        this.imgWitchLeft = loadImage('sneak-attack/assets/witch-left.png'),
-        this.imgWitchRight = loadImage('sneak-attack/assets/witch-right.png'),
-        this.imgWitchDead = loadImage('sneak-attack/assets/witch-dead.png')
+        this.imgWitchLeft = loadImage('/assets/witch-left.png'),
+        this.imgWitchRight = loadImage('/assets/witch-right.png'),
+        this.imgWitchDead = loadImage('/assets/witch-dead.png')
        ]
 
        this.vikingImages = [
-         this.imgVikingLeft = loadImage('sneak-attack/assets/viking-left.png'),
-         this.imgVikingRight = loadImage('sneak-attack/assets/viking-right.png'),
-         this.imgVikingDead = loadImage('sneak-attack/assets/vinking-dead.png')
+         this.imgVikingLeft = loadImage('/assets/viking-left.png'),
+         this.imgVikingRight = loadImage('/assets/viking-right.png'),
+         this.imgVikingDead = loadImage('/assets/vinking-dead.png')
        ]
   
-      this.backGroundimg = loadImage('sneak-attack/assets/background.png')
-      this.loosingimg = loadImage('sneak-attack/assets/loosing-screen.gif')
-      this.winningimg = loadImage('sneak-attack/assets/winning-screen.gif')
+      this.backGroundimg = loadImage('/assets/background.png')
+      this.loosingimg = loadImage('/assets/loosing-screen.gif')
+      this.winningimg = loadImage('/assets/winning-screen.gif')
   
       
     }
